@@ -9,8 +9,10 @@ const AppSearch = (props)=>{
                 <input 
                 id="search" 
                 className="app-search-input" 
-                type="search" 
-                placeholder="ค้นหา" />
+                type="text" 
+                placeholder="ค้นหา" 
+                value={value}
+                onChange={(event)=>{onValueChang(event.target.value)}}/>
             </form>
         </div>
     )

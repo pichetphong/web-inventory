@@ -30,6 +30,7 @@ const MainContent=()=>{
 
     return (
         <>
+            <AppSearch value={searchText} onValueChang={setSearchText}/>
             {productElement}
             {productModal}
         </>

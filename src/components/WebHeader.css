@@ -15,7 +15,7 @@
     /* background-color: red; */
 }
 
-#center.header{
+/* #center.header{
     width: max-content;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
     margin: 6px;
     border-radius: 28px;
     background: #f6f6f6;
-}
+} */
 
 #end.header{
     /* background-color: blue; */

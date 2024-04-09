@@ -2,8 +2,7 @@ import "./WebHeader.css"
 import "./MainContent.js"
 import AppSearch from "./AppSearch"
 
-const WebHeader = (props)=>{
-    const {value,onValueChang} = props
+const WebHeader = ()=>{
 
     return (
         <>
@@ -12,7 +11,7 @@ const WebHeader = (props)=>{
                     <h2>คลังสินค้า</h2>
                 </div>
                 <div id="center" className="header">
-                    <AppSearch/>
+                    {/* <AppSearch value={value} onValueChang={onValueChang}/> */}
                 </div>
                 <div id="end" className="header">
                     End
