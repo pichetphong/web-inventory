@@ -1,0 +1,30 @@
+#container.header{
+    height: 60px;
+    padding: 0 16px;
+    display: flex;
+    /* flex-flow: wrap; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    border-bottom: 1px solid gray;
+    /* background-color: yellow; */
+}
+
+#start.header{
+    /* background-color: red; */
+}
+
+#center.header{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 28px;
+    background: #f6f6f6;
+}
+
+#end.header{
+    /* background-color: blue; */
+}
