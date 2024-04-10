@@ -1,6 +1,14 @@
 import "./SideContent.css"
+import ProductAdd from "./ProductAdd";
+import { useState } from "react";
 
 const SideContent=()=>{
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => setIsModalOpen(true)
+    const closeModal = () => setIsModalOpen(false)
+
     return (
         <>
             <div className="wrapper">
@@ -9,14 +17,12 @@ const SideContent=()=>{
                     <div className="list-items">
                         <div className="li"><a>รายการสินค้า</a></div>
                         <div className="li"><a>รายงาน</a></div>
-                        <div className="li"><a>เพิ่มสินค้า</a></div>
+                        <div className="li"><a onClick={openModal}>เพิ่มสินค้า</a></div>
                         <div className="li"><a>เปิด/ปิด</a></div>
-                        {/* <div className="outline-btnAdd-product">
-                            <button className="btnAdd-product">เพิ่มสินค้า</button>
-                        </div> */}
                     </div>
                 </nav>
             </div>
+            <ProductAdd isOpen={isModalOpen} onClose={closeModal}/>
         </>
     )
 }
