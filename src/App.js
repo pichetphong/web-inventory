@@ -13,9 +13,9 @@ function App() {
                     <SideContent/>
                 </aside>
                 <main className="grid-main">
-                    <header className="header-grid-col">
+                    {/* <header className="header-grid-col">
                         <WebHeader/>
-                    </header>
+                    </header> */}
                     <MainContent />
                 </main>
             </section>

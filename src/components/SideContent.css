@@ -48,8 +48,8 @@
     display: block;
 }
 
-.outline-btnAdd-product{
-    display: none;
+/* .outline-btnAdd-product{
+    display: flex;
     justify-content: end;
     margin: 30px;
-}
+} */

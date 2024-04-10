@@ -5,9 +5,9 @@
     row-gap: 20px;
 }
 
-.header-grid-col{
+/* .header-grid-col{
     grid-column: 1/ span 4;
-}
+} */
 
 .grid-main{
     display: grid;

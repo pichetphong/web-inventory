@@ -10,9 +10,10 @@ const SideContent=()=>{
                         <div className="li"><a>รายการสินค้า</a></div>
                         <div className="li"><a>รายงาน</a></div>
                         <div className="li"><a>เพิ่มสินค้า</a></div>
-                        <div className="outline-btnAdd-product">
+                        <div className="li"><a>เปิด/ปิด</a></div>
+                        {/* <div className="outline-btnAdd-product">
                             <button className="btnAdd-product">เพิ่มสินค้า</button>
-                        </div>
+                        </div> */}
                     </div>
                 </nav>
             </div>
