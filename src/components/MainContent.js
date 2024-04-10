@@ -30,7 +30,11 @@ const MainContent=()=>{
 
     return (
         <>
-            <AppSearch value={searchText} onValueChang={setSearchText}/>
+            <div className="AppSearch-grid-col">
+                <div className="AppSearch-bg">
+                    <AppSearch value={searchText} onValueChang={setSearchText}/>
+                </div>
+            </div>
             {productElement}
             {productModal}
         </>

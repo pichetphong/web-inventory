@@ -1,9 +1,11 @@
 .product-item{
     width: 300px;
+}
+.product-item img{
     cursor: pointer;
     transition: 0.5s;
 }
-.product-item:hover{
+.product-item img:hover{
     transform: scale(1.025);
 }
 

@@ -8,14 +8,14 @@ function App() {
 
     return (
         <>
-            <header>
-                <WebHeader/>
-            </header>
-            <section id="section" className="grid-container">
-                <aside id="aside" className="">
+            <section className="grid-container">
+                <aside>
                     <SideContent/>
                 </aside>
-                <main id="main" className="grid-main">
+                <main className="grid-main">
+                    <header className="header-grid-col">
+                        <WebHeader/>
+                    </header>
                     <MainContent />
                 </main>
             </section>

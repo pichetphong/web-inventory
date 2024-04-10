@@ -2,8 +2,11 @@
     display: grid;
     grid-template-columns:1fr 5fr;
     grid-template-rows:auto;
-    column-gap: 10px;
     row-gap: 20px;
+}
+
+.header-grid-col{
+    grid-column: 1/ span 4;
 }
 
 .grid-main{

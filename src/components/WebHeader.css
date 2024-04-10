@@ -5,9 +5,8 @@
     /* flex-flow: wrap; */
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 31px;
-    border-bottom: 1px solid gray;
+    justify-content: end;
+    /* border-bottom: 1px solid gray; */
     /* background-color: yellow; */
 }
 
