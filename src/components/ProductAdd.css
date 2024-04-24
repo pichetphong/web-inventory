@@ -21,73 +21,9 @@
 
 .add-product-modal-content{
     position: relative;
-    width: 600;
+    width: 600px;
     max-height: 700px;
     padding: 25px 30px;
     border-radius: 5px;
     background-color: #fff;
-}
-.add-product-modal-content .title{
-    font-size: 25px;
-    font-weight: 500;
-    position: relative;
-}
-/* .add-product-modal-content .title::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 30px;
-    background: black;
-} */
-
-.add-product-modal-content form .product-details{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px 0 12px 0;
-}
-
-form .product-details .input-box{
-    margin-bottom: 15px;
-    width: calc(100% / 2 - 20px); 
-}
-.product-details .input-box .details{
-    display: block;
-    font-weight: 500;
-    margin-bottom: 5px;
-}
-.product-details .input-box input{
-    height: 45px;
-    width: 100%;
-    outline: none;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    padding-left: 15px;
-    font-size: 16px;
-    border-bottom-width: 2px;
-    transition: all 0.3s ease;
-}
-
-.product-details .input-box input:focus,
-.product-details .input-box input:valid{
-    border-color: gray;
-}
-
-.btn-con{
-    display: flex;
-    justify-content: center;
-}
-.button{
-    cursor: pointer;
-    height: 45px;
-    margin: 45px 0;
-    height: 50px;
-    width: 25%;
-    outline: none;
-    border: none;
-    color: white;
-    background-color: #BED7DC;
-    border-radius: 25px;
 }
